@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Josefin+Sans&family=Nunito&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    /* font-family: 'Comfortaa', cursive; */
+/* font-family: 'Josefin Sans', sans-serif; */
+font-family: 'Nunito', sans-serif; 
+
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: #028188;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    padding-top: 12px;
+    margin-left: 70px;
+   
+    
+}
+nav li {
+    
+    padding-top: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    font-size: 1.3rem;
+}
+nav a:hover{
+    color: #D2DE32;
+}
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+    display: flex;
+}
+.logo p{
+    color:#D2DE32;
+    font-size: 1.7rem;
+    padding-top: 6%;
+    padding-left: 2%;
+}
+.head{
+    padding-top: 80px;
+    text-align: center;
+    color:#016A70;
+    font-size:3rem ;
+    text-decoration: underline#D2DE32;
+}
+
+.side-bar{
+    position: fixed;
+    margin-top: 60px;
+}
+.side-bar a {
+    display: flex;
+    font-size: 1.2rem;
+    border:1px solid black;
+    width:195px;
+    padding: 17px;
+    text-align: center;
+    background-color: #028188;
+    border-color: #016A70;
+    color: white;
+    text-decoration: none;
+}
+.side-bar li{
+    display: flex;
+    font-size: 1.2rem;
+    border:1px solid black;
+    width:195px;
+    padding: 17px;
+    text-align: center;
+    background-color: #028188;
+    border-color: #016A70;
+    color: white;
+    text-decoration: none;
+}
+.side-bar a:hover{
+    color:#016A70 ;
+    background-color:#c7cf4e;
+    cursor: pointer;
+}
+
+.aele p{
+    font-size: 2.2rem;
+    padding-top: 7%;
+    padding-left: 275px;
+    color:#016A70;
+}
+.def p{
+    font-size: 1.2rem;
+    padding-left: 275px;
+    color: rgb(31, 30, 30);
+    padding-top: 20px;
+    margin-right: 5%;
+    text-align: justify;
+    line-height: 2rem;
+}
+.def pre{
+    background-color: rgb(211, 211, 211);
+    margin-left: 275px;
+    width: 70%;
+    height:40px;
+    padding-top: 20px;
+    font-size: 1rem;
+}
+.parts span{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1%;
+     color: #7a8301;
+}
+.parts p{
+    font-size: 1.2rem;
+    margin-right: 5%;
+    color: black;
+}
+.nest p{
+    font-size: 1.2rem;
+    padding-left: 275px;
+    color: rgb(31, 30, 30);
+    padding-top: 20px;
+    margin-right: 5%;
+    text-align: justify;
+    line-height: 2rem;
+}
+.nest pre{
+    background-color: rgb(211, 211, 211);
+    margin-left: 275px;
+    width: 70%;
+    height:40px;
+    padding-top: 20px;
+    font-size: 1rem;
+}
+.nest span{
+    font-size: 1.3rem;
+    margin-bottom: 1%;
+    color: #7a8301;
+}
+.adoc p{
+    font-size: 1.2rem;
+    padding-left: 275px;
+    color: rgb(31, 30, 30);
+    padding-top: 20px;
+    margin-right: 5%;
+    text-align: justify;
+    line-height: 2rem;
+}
+.doc-data {
+    font-size: 1.2rem;
+    padding-left: 275px;
+    color: rgb(31, 30, 30);
+    padding-top: 20px;
+    margin-right: 5%;
+    text-align: justify;
+    line-height: 2rem;
+}
+.data-1 span{
+    font-size: 1.3rem;
+    margin-bottom: 1%;
+     color: #7a8301;
+     font-weight: bold;
+}
+.images p{
+    font-size: 1.2rem;
+    padding-left: 275px;
+    color: rgb(31, 30, 30);
+    padding-top: 20px;
+    margin-right: 5%;
+    text-align: justify;
+    line-height: 2rem;
+}
+.images  pre{
+    background-color: rgb(211, 211, 211);
+    margin-left: 275px; 
+    width: 70%;
+    height:40px;
+    padding-top: 20px;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.aftr{
+    font-size: 1.2rem;
+    padding-left: 275px;
+    color: rgb(31, 30, 30);
+    padding-top: 5px;
+    margin-right: 5%;
+    text-align: justify;
+    line-height: 2rem;
+}
+.marking p{
+    font-size: 1.2rem;
+    padding-left: 275px;
+    color: rgb(31, 30, 30);
+    padding-top: 20px;
+    margin-right: 5%;
+    text-align: justify;
+    line-height: 2rem;
+}
+.marking  pre{
+    background-color: rgb(211, 211, 211);
+    margin-left: 275px; 
+    width: 70%;
+    height:40px;
+    padding-top: 20px;
+    font-size: 1rem;
+    margin-top: 20px;
+}

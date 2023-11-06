@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{    padding: 0;
+    margin: 0%;
+    font-family: 'Crimson Text', serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url("images/dish2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(253, 216, 174);
+}
+.head p{
+    text-align: center;
+    font-size: 4.3rem;
+    padding-top: 20%;
+}
+.sub p{
+    font-size: 1.6rem;
+    text-align: center;
+}
+nav{
+    background:rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    padding-top: 12px;
+    margin-left: 70px;
+   
+    
+}
+nav li {
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(253, 224, 190);
+    text-align: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+.button{
+    display:inline-block;
+    justify-content: center;
+    padding: 10px 30px;
+    font-size: 13px;
+    margin-left: 575px;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid rgb(253, 224, 190);
+    letter-spacing: .1rem;
+    margin-top: 36px;
+    text-decoration: none;
+    transition: .3s ease;
+    transition-property: background-color,color;
+}
+.button a:hover{
+    color:  black;
+    text-decoration: none;
+}
+.rec-head p{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 70px;
+    color: rgb(250, 212, 168);
+    font-family: 'Dancing Script', cursive;
+}
+.recipes{
+    background-color: rgb(19, 19, 19);
+    height:100vh;
+}
+.recipe{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+.recipe p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    letter-spacing: 0.1rem;
+    color: whitesmoke;
+}
+.recipe a{
+    color: rgb(253, 224, 190) ;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 13px;
+    border: .1px solid rgb(243, 199, 149);
+    letter-spacing: .1rem;
+}
+.recipe img{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); ;
+}
+.item1 span{
+    font-family: 'Dancing Script', cursive; 
+    color:rgb(253, 224, 190) ;  
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="basics.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img width="45" height="45" src="https://img.icons8.com/color-glass/48/education.png" alt="education" />
+            <p>EduWeb</p>
+        </div>
+        <div class="navi">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#tutorials">Tutorials</a></li>
+                <li><a href="#contact">ContactUs </a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="page1">
+        <div class="side-bar">
+            <aside>
+                <ul>
+                    <li style="padding-top: 8%;font-size: 1.7rem;">HTML TAGS</li>
+                    <a href="#ele">Paragraph Tag</a>
+                    <a href="#alea">Heading tag</a>
+                    <a href="#nhead">Emphasis tag</a>
+                    <a href="#dhead">Bold tag</a>
+                    <a href="#images">Italic tag</a>
+                    <a href="#marking">Anchor tag</a>
+                    <a href="#heading">-> List tag</a>
+                    <a href="#para" >->Unordered List tag</a>
+                    <a href="#list" >->Image tag</a>  
+                </ul>
+            </aside>
+        </div>
+        <div class="adoc">
+        </div>
+        <div id="ele" class="aele">
+            <p>Paragraph Tag</p>
+            <div class="def">
+                <p>HTML consists of a series of <span
+                        style="text-decoration: underline; font-weight: bold;">elements</span>, which you use to
+                    enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain
+                    way. The enclosing <span style="text-decoration: underline; font-weight: bold;">tags</span> can make
+                    a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or
+                    smaller, and so on.<br><br><span style="color: #8c9602;">For example, take the following line of
+                        content:</span></p>
+                <br>
+                <pre>
+        My cat is very Grumpy.
+        </pre><br>
+                <p style="color: #8c9602;">If we wanted the line to stand by itself, we could specify that it is a
+                    paragraph by enclosing it in
+                    paragraph tags:</p>
+                <br>
+                <pre id="alea">
+        &lt;p&gt;My cat is very Grumpy.&lt;/p&gt;  
+                </pre><br >
+                    <div class="title">
+                        <p  style="font-size: 2.2rem;color: #016A70;">Heading tag</p>
+                    <p style="color: #8c9602;">Let's explore this paragraph element a bit further.</p><br>
+                    <figure>
+                        <img height="190px" style="padding-left: 500px;" src="images/eadoc.png"
+                            alt="Anatomy of Html element">
+                        <figcaption style="padding-left: 690px; padding-top: 1%;">Fig-1 Anatomy Of HTML Element
+                        </figcaption>
+                    </figure>
+                    <br>
+                    <p class="parts">
+                        <span>The opening tag: </span>This consists of the name of the element (in this case, p),
+                        wrapped in
+                        opening and closing angle brackets. This states where the element begins or starts to take
+                        effect —
+                        in this case where the paragraph begins.<br><br>
+                        <span>The closing tag: </span>This is the same as the opening tag, except that it includes a
+                        forward
+                        slash before the element name. This states where the element ends — in this case where the
+                        paragraph
+                        ends. Failing to add a closing tag is one of the standard beginner errors and can lead to
+                        strange
+                        results.<br><br>
+                        <span>The content: </span>This is the content of the element, which in this case, is just
+                        text.<br><br>
+                        <span>The element: </span> The opening tag, the closing tag, and the content together comprise
+                        the
+                        element.
+                    </p>
+                    <br>
+
+            </div>
+        </div>
+        <div id="nhead">
+            <p  style="font-size: 2.2rem;color: #016A70;padding-left:275px ;">Nesting Elements</p>
+        </div>
+    </div>
+    <div id="nest" class="nest">
+        <p>You can put elements inside other elements too — this is called nesting. If we wanted to state that our cat is very grumpy, we could wrap the word "very" in a &lt;strong&gt; element, which means that the word is to be strongly emphasized:</p><br>
+        <pre>    &lt;p&gt;My cat is &lt;strong&gt;very&lt;strong&gt; grumpy&lt;p&gt;</pre><br>
+        <p>You do however need to make sure that your elements are properly nested. In the example above, we opened the &lt;p&gt; element first, then the &lt;strong&gt; element; therefore, we have to close the &lt;strong&gt; element first, then the &lt;p&gt; element.<br><br><span> The following is incorrect:</span></p><br>
+        <pre>    &lt;p&gt;My cat is &lt;strong&gt;very grumpy&lt;p&gt;&lt;strong&gt;</pre><br>
+        <p>The elements have to open and close correctly so that they are clearly inside or outside one another. If they overlap as shown above, then your web browser will try to make the best guess at what you were trying to say, which can lead to unexpected results. So don't do it!</p><br>
+        <div id="dhead" class="dhead">
+            <p  style="font-size: 2.2rem;color: #016A70;padding-left:275px;padding-top: 80px;">Anatomy of Document</p>
+        </div>
+    </div>
+    
+<div class="adoc">
+    <p>That wraps up the basics of individual HTML elements, but they aren't handy on their own. Now we'll look at how individual elements are combined to form an entire HTML page. Let's revisit the code we put into our <mark style="background-color: grey;">index.html</mark> example (which we first met in the Dealing with files article):</p>
+    <br>
+<p style="color: #8c9602;font-size: 1.5rem;">Here's an example:</p><br>
+</div>
+    <pre style="background-color: rgb(211, 211, 211);margin-left: 275px;width: 70%;padding-top: 20px;font-size: 1rem;">
+        &lt;!DOCTYPE&gt;  
+              &lt;html&gt;  
+              &lt;head&gt;  
+              &lt;title&gt;Web page title&lt;/title&gt;  
+              &lt;/head&gt;  
+              &lt;body&gt;  
+              &lt;h1&gt;Write Your First Heading&lt;/h1&gt;  
+              &lt;p&gt;Write Your First Paragraph.&lt;/p&gt;  
+              &lt;/body&gt;  
+              &lt;/html&gt;
+    </pre><br>
+    <div class="doc-data">
+        <p>Here, we have the following :</p><br>
+        <div class="data-1">
+            <p><span>&lt;!DOCTYPE&gt;: </span>It is a required preamble. In the mists of time, when HTML was young (around 1991/92), doctypes were meant to act as links to a set of rules that the HTML page had to follow to be considered good HTML, which could mean automatic error checking and other useful things. However, these days, they don't do much and are basically just needed to make sure your document behaves correctly.</p><br>
+        </div>
+        <div class="data-1">
+            <p><span>&lt;html&gt;&lt;/html&gt;: </span>This element wraps all the content on the entire page and is sometimes known as the root element. It also includes the lang attribute, setting the primary language of the document.</p><br>
+        </div>
+        <div class="data-1">
+            <p><span>&lt;head&gt;&lt;/head&gt;: </span>This element acts as a container for all the stuff you want to include on the HTML page that isn't the content you are showing to your page's viewers. This includes things like keywords and a page description that you want to appear in search results, CSS to style our content, character set declarations, and more.</p><br>
+        </div>
+        <div class="data-1">
+            <p><span>&lt;meta charset="utf-8"&gt;: </span>This element sets the character set your document should use to UTF-8 which includes most characters from the vast majority of written languages. Essentially, it can now handle any textual content you might put on it. There is no reason not to set this, and it can help avoid some problems later on.</p><br>
+        </div>
+        <div class="data-1">
+            <p><span>&lt;meta name="viewport" content="width=device-width"&gt;: </span>This viewport element ensures the page renders at the width of viewport, preventing mobile browsers from rendering pages wider than the viewport and then shrinking them down.</p><br>
+        </div>
+        <div class="data-1">
+            <p><span>&lt;title&gt;&lt;/title&gt;: </span>This sets the title of your page, which is the title that appears in the browser tab the page is loaded in. It is also used to describe the page when you bookmark/favorite it.</p><br>
+        </div>
+        <div class="data-1">
+            <p><span>&lt;body&gt;&lt;/body&gt;: </span>This contains all the content that you want to show to web users when they visit your page, whether that's text, images, videos, games, playable audio tracks, or whatever else.</p><br>
+        </div>
+    </div>
+<div id="images" class="images">
+    <p style="font-size: 2.2rem;color: #016A70;padding-left:275px;padding-top: 80px;">HTML Images</p>
+        <p>Let's turn our attention to the &lt;img&gt; element again:</p>
+        <pre>    &lt;img src="images/firefox-icon.png" alt="My test image"&gt;</pre><br>
+        <p>As we said before, it embeds an image into our page in the position it appears. It does this via the <mark style="background-color: grey;">src</mark> (source) attribute, which contains the path to our image file.</p>
+        <p>We have also included an <mark style="background-color: grey;">alt</mark> (alternative) attribute. In the <mark style="background-color: grey;">alt</mark> attribute, you specify descriptive text for users who cannot see the image, possibly because of the following reasons:</p>
+        <p>1. They are visually impaired. Users with significant visual impairments often use tools called screen readers to read out the alt text to them.</p>
+        <p>2. Something has gone wrong causing the image not to display. For example, try deliberately changing the path inside your <mark style="background-color: grey;">src</mark> attribute to make it incorrect. If you save and reload the page, you should see something like this in place of the image:</p>
+        <img height="40px" style="padding-left: 40vw;padding-top: 15px;" src="images/test img.png" alt="Test image ">
+        <p class="aftr">The keywords for alt text are "descriptive text". The alt text you write should provide the reader with enough information to have a good idea of what the image conveys. In this example, our current text of "My test image" is no good at all. A much better alternative for our Firefox logo would be "The Firefox logo: a flaming fox surrounding the Earth."</p>
+        <p>Try coming up with some better alt text for your image now.</p>
+</div>
+<div id="marking" class="marking">
+    <p  style="font-size: 2.2rem;color: #016A70;padding-left:275px ;padding-top:80px">Marking up text</p>
+    <p>This section will cover some essential HTML elements you'll use for marking up the text.</p>
+    <div id="heading" class="data-1" style="padding-top:45px">
+        <p><span>HTML Headings: </span><br>Heading elements allow you to specify that certain parts of your content are headings — or subheadings. In the same way that a book has the main title, chapter titles, and subtitles, an HTML document can too. HTML contains 6 heading levels, &lt;h1&gt; - &lt;h6&gt;, although you'll commonly only use 3 to 4 at most:</p>
+        <pre style="background-color: rgb(211, 211, 211);margin-left: 275px;width:70%;height:auto;padding-top: 20px;font-size: 1rem;margin-top: 20px;">
+            &lt;!-- 4 heading levels: --&gt;   
+            &lt;h1&gt;My main title&lt;/h1&gt;  
+            &lt;h2&gt;My top level heading&lt;/h2&gt;
+            &lt;h3&gt;My subheading&lt;/h3&gt;
+            &lt;h4&gt;My sub-subheading&lt;/h4&gt;    
+        </pre><br>
+        <p>Now try adding a suitable title to your HTML page just above your <mark style="background-color: grey;">&lt;img&gt;</mark> element.</p>
+    </div>
+    <div id ="para" style="padding-top:45px">
+    <div class="data-1">
+        <p><span>HTML Paragraphs: </span><br>As explained above, <mark style="background-color: grey;">&lt;p&gt;</mark> elements are for containing paragraphs of text; you'll use these frequently when marking up regular text content:</p>
+        <pre>    &lt;p&gt;My main title&lt;p&gt;     
+        </pre><br>
+        <p>Add your sample text into one or a few paragraphs, placed directly below your &lt;img&gt; element.</p>
+    </div></div>
+    <div id="list" class="data-1" style="padding-top:45px">
+        <p><span>HTML Lists: </span><br>A lot of the web's content is lists and HTML has special elements for these. Marking up lists always consists of at least 2 elements. The most common list types are ordered and unordered lists:</p>
+        <p>1. Unordered lists are for lists where the order of the items doesn't matter, such as a shopping list. These are wrapped in a &lt;ul&gt; element.</p>
+        <p>2. Ordered lists are for lists where the order of the items does matter, such as a recipe. These are wrapped in an &lt;ol&gt; element.</p>
+        <p>Each item inside the lists is put inside an &lt;li&gt; (list item) element.</p>
+        <p>For example, if we wanted to turn the part of the following paragraph fragment into a list</p>
+        <pre>    &lt;p&gt;  At Mozilla, we're a global community of technologists, thinkers, and builders working together…&lt;p&gt;     
+        </pre><br>
+        <p>We could modify the markup to this</p>
+        <pre style="background-color: rgb(211, 211, 211);margin-left: 275px;width:70%;height:auto;padding-top: 20px;font-size: 1rem;margin-top: 20px;">     &lt;p&gt;At Mozilla, we're a global community of&lt;/p&gt;
+            &lt;ul&gt;
+               &lt;li&gt;technologists&lt;/li&gt;
+               &lt;li&gt;thinkers&lt;/li&gt;
+               &lt;li&gt;builders&lt;/li&gt;
+            &lt;/ul&gt;
+    &lt;p&gt;working together…&lt;/p&gt;
+        </pre><br>
+        <p>Try adding an ordered or unordered list to your example page.</p>
+    </div>
+</div>
+</body>
+</html>
+
+    
+    
+
+    
+    

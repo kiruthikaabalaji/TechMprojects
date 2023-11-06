@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fuggles&family=Oswald:wght@300;400&family=Poiret+One&family=Roboto+Condensed&family=Space+Grotesk:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+    font-family: 'Oswald', sans-serif;
+}
+nav{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    padding-top: 12px;
+    margin-left: 70px;
+   
+    
+}
+nav li {
+    
+    padding-top: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 30px;
+    color:rgb(235, 66, 66);
+    font-size: 1.3rem;
+}
+nav a:hover{
+    color:#a80b0b;
+}
+.wedding{
+    display:flex;
+    justify-content: space-between;
+}
+.head p{
+    padding-top: 300px;
+    padding-left: 200px;
+    font-size: 5rem;
+    color: #a80b0b;
+    
+}
+.wedding .image img{
+    border-top-left-radius: 20px;
+}
+.heading {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #dc4141;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-top: 10%;
+  }
+  
+  .heading span {
+    color: var(--theme-color);
+    text-transform: uppercase;
+  }
+  
+
+.service{
+    padding-bottom: 70px;
+}
+
+.service .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+    padding-left: 80px;
+    padding-right: 80px;
+
+  }
+  
+  .service .box-container .box {
+    border-radius: 0.5rem;
+    background: #333;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .service .box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background:#a80b0b;
+    color: #fff;
+  }
+  
+  .service .box-container .box h3 {
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+.service .box-container .box p {
+    font-size: 1.2rem;
+    color: #eee;
+    line-height: 1.5;
+  }
+
+.price{
+    padding-bottom: 70px;
+}
+
+
+.price .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1.5rem;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+.price .box-container .box {
+    padding: 1rem;
+    background: #333;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+  
+  .price .box-container .box:hover {
+    transform: scale(1.03);
+  }
+  
+  .price .box-container .box .title {
+    background:#dc4141;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 2rem;
+  }
+  
+  .price .box-container .box .amount {
+    color: #fff;
+    padding-top: 1.5rem;
+    font-size: 3rem;
+  }
+  
+  .price .box-container .box ul {
+    list-style-type: none;
+    padding: 10px 0;
+  }
+  
+  .price .box-container .box ul li {
+    font-size: 1.5rem;
+    color: #eee;
+    padding: 10px 0;
+  }
+  
+  .price .box-container .box ul li i {
+    color:#dc4141;
+    padding-right: 0.5rem;
+  }
+  
+  
+
+  @media (max-width: 991px) {
+
+    .service{
+      padding: 2rem;
+    }
+  }
+  @media (max-width: 991px) {
+
+    .price{
+      padding: 3rem;
+    }
+  }
+  @media (max-width: 991px) {
+    .wedding{
+        display: inline;
+    }
+
+    .wedding img{
+      width:600px;
+        height:100%;
+        
+    }
+    .wedding p{
+        font-size: 3rem;
+        padding-left: 20px;
+        text-align: center;
+    }
+  }
+  @media (max-width:991px)
+  {
+    .logo{
+        width:50%;
+    }
+    .navi ul li{
+        font-size: .2rem;
+    }
+  }

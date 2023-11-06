@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="An example pen showing how a basic CSS Grid container can create a nice, responsive card layout.">
+    
+</head>
+<body>
+<nav>
+    <div class="logo">
+        <img width="45" height="45" src="https://img.icons8.com/color-glass/48/education.png" alt="education"/>
+        <p>EduWeb</p>
+    </div>
+    <div class="navi">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">ContactUs </a></li>
+            <li><a href="#feedback">Feedback</a></li>
+        </ul>
+    </div>
+    <div>
+        <div class="button"><a href="" style="color: white;font-size: 18px;">Sign in</a></div>
+        <div class="button"><a href="" style="color: white;font-size: 18px;">Log in</a></div>
+    </div>
+</nav>
+<div id="home" class="home">
+    <div class="content">
+        <p>Power up your skills in HTML with simple and clear learning experiance in eduweb.<br></p>            
+        <a href="#intro ">Explore Now</a>
+      
+    </div>
+    <div class="pic">
+        <img width="500px" height="450px"  src="images/bg3.jpg" alt="edu img">
+    </div>
+</div>
+<div id="intro" class="intro">
+    
+    <div class="cont" style="padding-top: 9%;">
+        <div class="sideimg"><img width="445px" height="350px"style="padding-bottom:20%;padding-left:10%" src="images/bg4.jpg" alt="books"></div>
+    <div class="par">
+        <p class="para" style="font-weight: 400px;font-size: 3.5rem;margin-top: 3%;"> What is html ?</p>
+        <p style="padding-top: 5%; line-height: 2.2rem;font-size: 1.3rem;">HTML, like Lego bricks, assembles digital landscapes. It's the fundamental building material for web content, using tags akin to Lego pieces. These tags define various elements, creating the structure of a webpage. Just as Lego bricks interlock to craft diverse creations, HTML elements combine to form intricate web designs. </p>
+        <a href="#tutorials">Learn More</a>
+    </div>
+    </div>
+</div>
+<div>
+</div>
+<div id ="tutorials" class="tutorials">
+  <div class="head-c">
+    <p></p>
+    <p>Tutorials</p>
+  </div>
+  <div class="cards">
+  <div class="grid">
+    <div  class="griditem">
+      <div class="card" ><img width="100" height="100" style="padding-left: 145px;" src="https://img.icons8.com/color/96/source-code.png" alt="source-code"/>
+        <div class="card__content">
+          <h1 class="card__header" style="text-align: center;">HTML Basics</h1>
+          <p class="card__text" style="text-align: justify;">Understanding all the basic stuff of HTML coding, various tags that we must consider and include while starting to code in HTML.These will guide you through the process of writing HTML.</p>
+          <a class="card__btn" style="margin-left: 70px;text-decoration: none;" href="basics.html">Explore <span>&rarr;</span></a>
+        </div>
+      </div>
+    </div>
+      <div class="griditem">
+          <div class="card"><img width="100" height="100" style="padding-left: 145px;" src="https://img.icons8.com/color/96/source-code.png" alt="source-code"/>
+            <div class="card__content">
+              <h1 class="card__header" style="text-align: center;">HTML Attributes</h1>
+              <p class="card__text" style="text-align: justify;">HTML attributes are essential elements within HTML tags that provide extra information or modify an element's behavior.They enhance web page structure and functionality.</p>
+              <a class="card__btn" style="margin-left: 70px;text-decoration: none;" href="Attribute.html">Explore <span>&rarr;</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="griditem" >
+          <div class="card"><img width="100" height="100" style="padding-left: 145px;" src="https://img.icons8.com/color/96/source-code.png" alt="source-code"/>
+            <div class="card__content" >
+              <h1 class="card__header" style="text-align: center;">HTML Tags</h1>
+              <p class="card__text" style="text-align: justify;">HTML tags are fundamental components of web documents, enclosed in angle brackets.They can also have attributes to provide additional information or functionality to the elements.</p>
+               <a class="card__btn" style="margin-left: 70px;text-decoration: none;" href="tags.html">Explore <span>&rarr;</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</body>
+</html>
